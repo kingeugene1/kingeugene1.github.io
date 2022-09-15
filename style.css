@@ -8,7 +8,7 @@ body{
 }
 #head h1{
     background-color: thistle;
-    color: rgba(214, 138, 123, 0.801);
+    color: #ba9eba;
     text-shadow: -.05em -.05em .05em purple,
     .05em .03em .05em white;
     text-align: center;
