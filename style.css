@@ -1,17 +1,24 @@
 #head{
     background-color: beige;
-    /*padding: 80px 0;*/
+    z-index: 999;
+    
 }
 
-body{
-    margin: 0 20px;
-}
 #head h1{
     background-color: thistle;
-    color: #ba9eba;
+    color: rgba(214, 138, 123, 0.801);
     text-shadow: -.05em -.05em .05em purple,
     .05em .03em .05em white;
     text-align: center;
+}
+
+
+/* 
+#head h1 {text-align: center; color: red;} */
+
+body{
+    margin: 0 20px;
+    line-height: 1.8;
 }
 .head-text{
     display: flex;
@@ -39,6 +46,8 @@ body{
 .head-text li span{
     color: green;
 }
+
+/*-----------education-------------*/
 /*---------Footer ---------*/
 .footer{
 	width: 100%;
@@ -61,7 +70,36 @@ body{
 .fa-heart-o {
 	color: #f44336;
 }
-
+.education .fa-user-graduate {
+    color: #f44336;
+}
+/*---------hobby-----------*/
+.list, .education, .Interest, .skills, .award, .publications{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 20px 0;
+}
+.list img{
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+}
+.list1.im2 img{
+    width: 450px; 
+    height: 675px;
+}
+.list1{
+    flex-basis: 35%;
+}
+.list2{
+    flex-basis: 63%;
+}
+.education li , p,.Interest li,p,.skills li,p, .award li,p,.publications li,p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 @media only screen and (max-width: 700px){
     .intro{
@@ -80,6 +118,16 @@ body{
         font-family: sans-serif;
         font-weight: 250;
     }
+    .education li , p,.Interest li,p,.skills li,p, .award li,p,.publications li,p{
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 250;
+    }
+    .education h1,.Interest h1,.skills h1, .award h1,.publications h1,.list2 h1{
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
     #head h1{
         font-size: 24px;
     }
@@ -89,5 +137,20 @@ body{
         box-sizing: border-box;
         margin-left: 40%;
         
+    }
+    .list1 img{
+        width: 225px;
+        height: 150px;
+        border-radius: 15px;
+    }
+    .list1.im2 img{
+        width: 225px; 
+        height: 336px;
+    }
+    .list1{
+        flex-basis: 60%;
+    }
+    .list2{
+        flex-basis: 65%;
     }
 }
