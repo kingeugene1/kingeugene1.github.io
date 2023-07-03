@@ -3,7 +3,7 @@
     font-family: 'Poppin', sans-serif;
 }
 body h1{
-    font-size: 20px;
+    font-size: 35px;
 }
 .navigation{
     padding-left: 28%;
@@ -20,7 +20,7 @@ body h1{
     margin-right: 100px;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 30px;
     cursor: pointer;
 }
 .navigation a:last-child{
@@ -40,7 +40,7 @@ body h1{
     flex-basis: 25%;
 }
 .intro-left h4{
-    font-size: 14px;
+    font-size: 32px;
     font-weight: 300;
     margin-left: 10px;
 }
@@ -48,7 +48,7 @@ body h1{
     flex-basis: 60%;
 }
 .intro-right-row2 ul li{
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 300;
     margin-right: 20px;
     padding-bottom: 10px;
@@ -59,7 +59,7 @@ body h1{
     margin-left: 10px;
 }
 .intro-right h2,.intro-right-row2 h2{
-    font-size: 20px;
+    font-size: 35px;
 }
 .intro-right-row1 ul{
     display: block;
@@ -70,7 +70,7 @@ body h1{
     margin-bottom: 15px;
 }
 .intro-right h1{
-    font-size: 18px
+    font-size: 35px
 }
 
 /* Objective section */
@@ -86,11 +86,11 @@ body h1{
 .title{
     flex-basis: 33%;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 35px;
 }
 .content{
     flex-basis: 60%;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 20pt;
     text-align: justify;
@@ -120,7 +120,7 @@ body h1{
 }
 .education-detail p{
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 30px;
 }
 
 /*Work history*/
@@ -132,7 +132,7 @@ body h1{
 .work-history h1{
     padding-top: 10px;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 35px;
 }
 .work-history-container{
     display: flex;
@@ -160,7 +160,7 @@ body h1{
     list-style-type:decimal;
 }
 .work-detail h1{
-    font-size: 20px;
+    font-size: 35px;
 }
 .head-title{
     margin-left: 5%;
@@ -276,7 +276,7 @@ border-radius: 20px;
     align-items: center;
 }
 .footer p{
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(163, 160, 160);
 }
 
