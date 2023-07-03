@@ -48,7 +48,7 @@
     margin-right: 60px;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 35px;
     cursor: pointer;
 }
 .home-content, .contact-container{
@@ -103,7 +103,7 @@
 }
 
 .intro-right-row1 h2 {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
@@ -123,17 +123,17 @@
     align-items: center;
 }
 .footer p{
-    font-size: 15px;
+    font-size: 30px;
     color: rgb(163, 160, 160);
 }
 
 .body-container p, .research p, .Affiliation p, .bio p{
-    font-size: 18px;
+    font-size: 30px;
     line-height: 25px;
 }
 
 .body-container h3, .research h3, .Affiliation h3, .bio h3{
-    font-size: 20px;
+    font-size: 35px;
 }
 
 /*contact*/
