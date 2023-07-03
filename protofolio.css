@@ -1,0 +1,153 @@
+
+.top-img{
+    background-image: url(images/hiking.jpg);
+    background-color: #cccccc;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 6px;
+}
+.profile{
+    width: 250px;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: -220px;
+    border: 1px solid #fff;
+    background: red;
+    margin-left: 40%;
+    position: absolute;
+}
+.name{
+  text-align: center;
+  margin-top: 90px;
+  padding: 0;
+  height: 60px;
+  align-items: center;
+}
+.name h3{
+   font-size: 50px;
+   
+}
+.navigation{
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: #9e8acc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30%;
+    padding-right: 5%;
+    border-radius: 6px;
+    width: 59%;
+}
+.navigation a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.home-content, .contact-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+/*
+.body-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+}*/
+.body-container p{
+    text-align: justify;
+    margin-right: 50px;
+    line-height: 20px;
+}
+.research-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+.research-achive{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.paper-img{
+    flex-basis: 35%;
+}
+.content{
+    flex-basis: 60%;
+}
+.paper-img img{
+    width: 300px;
+}
+.content p{
+    text-align: justify;
+    line-height: 20px;
+}
+.content a{
+    text-decoration: none;
+    color: #fff;
+    background: #3b3838;
+    border-radius: 20px;
+    padding: 6px 6px;
+}
+.research-container hr{
+    border: 1px solid #3b3838;
+
+}
+
+.intro-right-row1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro-right-row1 li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.intro-right-row1 li i {
+    margin-right: 5px;
+}
+
+
+.footer{
+    margin-top: 30px;
+    margin-left: 40%;
+    align-items: center;
+}
+.footer p{
+    font-size: 15px;
+    color: rgb(163, 160, 160);
+}
+
+.body-container p, .research p, .Affiliation p, .bio p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.body-container h3, .research h3, .Affiliation h3, .bio h3{
+    font-size: 20px;
+}
+
+/*contact*/
+.contact-row ul li{
+    padding-bottom: 15px;
+}
+.contact-row ul li a{
+    padding-right: 10px;
+}
+
+.contact-row ul li i{
+    margin-right: 10px;
+    color:red;
+}
+
+
+

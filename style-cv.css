@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    font-family: 'Poppin', sans-serif;
+}
+body h1{
+    font-size: 20px;
+}
+.navigation{
+    padding-left: 28%;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #432094;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 62%;
+    border-radius: 6px;
+}
+.navigation a{
+    margin-right: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.navigation a:last-child{
+    margin-right: 50px;
+}
+.introduction{
+    margin: 10px 5%;
+    background: beige;
+    border-radius: 6px;
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro-left{
+    flex-basis: 25%;
+}
+.intro-left h4{
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+.intro-right{
+    flex-basis: 60%;
+}
+.intro-right-row2 ul li{
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.intro-left img{
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.intro-right h2,.intro-right-row2 h2{
+    font-size: 20px;
+}
+.intro-right-row1 ul{
+    display: block;
+    list-style: none;
+    
+}
+.intro-right-row1 ul li,a{
+    margin-bottom: 15px;
+}
+.intro-right h1{
+    font-size: 18px
+}
+
+/* Objective section */
+.objective{
+    background: rgb(232, 223, 223);
+    border-radius: 6px;
+    margin: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.title{
+    flex-basis: 33%;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.content{
+    flex-basis: 60%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20pt;
+    text-align: justify;
+    margin-right: 20px;
+}
+.fa-solid{
+    width: 2px;
+    margin-right: 20px;
+}
+
+/* Education section*/
+.education{
+    border-radius: 6px;
+    margin: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background: rgb(232, 223, 223);
+}
+.education-detail{
+    flex-basis: 60%;
+    font-size: 16px;
+    line-height: 12pt;
+    text-align: justify;
+    margin-right: 20px; 
+}
+.education-detail p{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/*Work history*/
+.work-history{
+    border-radius: 6px;
+    background: rgb(232, 223, 223);
+    margin: 10px 5%;
+}
+.work-history h1{
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.work-history-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: justify;
+}
+.work-place1{
+    flex-basis: 33%;
+}
+.work-place1 h1,.work-place2 h1,.work-place3 h1{
+    padding-left: 30px;
+}
+.work-place1 h1{
+   padding-top: -40px;
+}
+
+.work-detail{
+    flex-basis: 60%;
+    text-align: justify;
+    margin-right: 20px;
+    line-height: 16pt;
+}
+.work-detail li{
+    list-style-type:decimal;
+}
+.work-detail h1{
+    font-size: 20px;
+}
+.head-title{
+    margin-left: 5%;
+}
+.head-title .fa-briefcase{
+    width: 2px;
+    margin-right: 20px;
+}
+
+
+.interest{
+    border-radius: 6px;
+    background: rgb(232, 223, 223);
+    margin: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.interest-detail{
+    flex-basis: 60%;
+    text-align: justify;
+    margin-right: 20px;
+    line-height: 16pt;
+}
+
+
+.skills{
+    border-radius: 6px;
+    background: rgb(232, 223, 223);
+    margin: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.skills-detail{
+    flex-basis: 60%;
+    text-align: justify;
+    margin-right: 20px;
+    line-height: 16pt; 
+}
+
+.award{
+    border-radius: 6px;
+    background: rgb(232, 223, 223);
+    margin: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.award-detail{
+    flex-basis: 60%;
+    text-align: justify;
+    margin-right: 20px;
+    line-height: 16pt; 
+}
+
+.publications{
+    border-radius: 6px;
+    background: rgb(232, 223, 223);
+    margin: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.publications-detail{
+    flex-basis: 60%;
+    text-align: justify;
+    margin-right: 20px;
+    line-height: 16pt; 
+}
+
+#hobby{
+    border-radius: 6px;
+    background: rgb(232, 223, 223);
+    margin: 10px 5%;
+}
+.hobby-title h1{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.hobby-container{
+    margin: 10px 5%;
+    display: flex;
+    justify-content: space-between; 
+}
+.hobby-col1{
+    flex-basis: 33%;
+    margin-left: 20px;
+}
+.hobby-col2{
+    flex-basis: 60%;
+    text-align: justify;
+    margin-right: 20px;
+    line-height: 16pt; 
+}
+.marathon{
+    width: 300px;
+    border-radius: 6px;
+}
+.hiking{
+    width: 300px;
+    border-radius: 6px;
+}
+.other-pic{
+    display: inline-block;
+}
+.other-pic img{
+height: 150px;
+margin-right: 50px;
+border-radius: 20px;
+}
+/* ------- Footer-------*/
+
+.footer{
+    margin-top: 30px;
+    margin-left: 40%;
+    align-items: center;
+}
+.footer p{
+    font-size: 15px;
+    color: rgb(163, 160, 160);
+}
+
+
+
+
+
+
+
+
+
