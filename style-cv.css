@@ -3,7 +3,7 @@
     font-family: 'Poppin', sans-serif;
 }
 body h1{
-    font-size: 35px;
+    font-size: 20px;
 }
 .navigation{
     padding-left: 28%;
@@ -20,7 +20,7 @@ body h1{
     margin-right: 100px;
     text-decoration: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 18px;
     cursor: pointer;
 }
 .navigation a:last-child{
@@ -40,7 +40,7 @@ body h1{
     flex-basis: 25%;
 }
 .intro-left h4{
-    font-size: 32px;
+    font-size: 14px;
     font-weight: 300;
     margin-left: 10px;
 }
@@ -48,7 +48,7 @@ body h1{
     flex-basis: 60%;
 }
 .intro-right-row2 ul li{
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 300;
     margin-right: 20px;
     padding-bottom: 10px;
@@ -59,7 +59,7 @@ body h1{
     margin-left: 10px;
 }
 .intro-right h2,.intro-right-row2 h2{
-    font-size: 35px;
+    font-size: 20px;
 }
 .intro-right-row1 ul{
     display: block;
@@ -70,7 +70,7 @@ body h1{
     margin-bottom: 15px;
 }
 .intro-right h1{
-    font-size: 35px
+    font-size: 18px
 }
 
 /* Objective section */
@@ -86,11 +86,11 @@ body h1{
 .title{
     flex-basis: 33%;
     margin-left: 20px;
-    font-size: 35px;
+    font-size: 14px;
 }
 .content{
     flex-basis: 60%;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 20pt;
     text-align: justify;
@@ -120,7 +120,7 @@ body h1{
 }
 .education-detail p{
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 16px;
 }
 
 /*Work history*/
@@ -132,7 +132,7 @@ body h1{
 .work-history h1{
     padding-top: 10px;
     margin-left: 20px;
-    font-size: 35px;
+    font-size: 20px;
 }
 .work-history-container{
     display: flex;
@@ -160,7 +160,7 @@ body h1{
     list-style-type:decimal;
 }
 .work-detail h1{
-    font-size: 35px;
+    font-size: 20px;
 }
 .head-title{
     margin-left: 5%;
@@ -276,9 +276,129 @@ border-radius: 20px;
     align-items: center;
 }
 .footer p{
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(163, 160, 160);
 }
+
+@media screen {
+    .navigation {
+        padding-left: 10%;
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #432094;
+        margin-top: 10px;
+        margin-left: 0%;
+        width: 88%;
+        border-radius: 6px;
+    }
+    .navigation a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .introduction {
+        margin: 10px 1%;
+        background: beige;
+        border-radius: 6px;
+    }
+    .intro-left img {
+        width: 150px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .intro-right-row2 ul li{
+        font-size: 13px;
+        font-weight: 150;
+        margin-right: 5px;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+    .intro-left h4 {
+        font-size: 12px;
+    }
+    .objective {
+        margin: 10px 1%;
+
+    }
+    body h1 {
+        font-size: 15px;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+    .content {
+        flex-basis: 55%;
+        font-size: 13px;
+        font-weight: 150;
+        line-height: 20pt;
+        text-align: justify;
+        margin-right: 10px;
+    }
+    .title{
+        flex-basis: 38%;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .footer{
+        margin-top: 30px;
+        margin-left: 30%;
+        align-items: center;
+    }
+    .education {
+
+        margin: 10px 1%;
+    }
+    .work-history {
+        margin: 10px 1%;
+    }
+    .work-detail {
+        flex-basis: 55%;
+        text-align: justify;
+        margin-right: 20px;
+        line-height: 13pt;
+    }
+    .work-history h1 {
+        padding-top: 10px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+ 
+    .education-detail {
+        flex-basis: 55%;
+        font-size: 13px;
+
+    }
+    .interest-detail {
+        flex-basis: 55%;
+    }
+    .interest, .skills, .award, .publications, #hobby {
+
+        margin: 10px 1%;
+    }
+    .marathon, .hiking {
+        width: 150px;
+        border-radius: 6px;
+    }
+    .hobby-col2 {
+        flex-basis: 55%;
+    }
+    .hobby-col1{
+        flex-basis: 38%;
+        margin-left: 0px;
+    }
+    .other-pic img {
+        height: 80px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+}
+
 
 
 
