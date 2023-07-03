@@ -280,7 +280,7 @@ border-radius: 20px;
     color: rgb(163, 160, 160);
 }
 
-@media screen {
+@media screen and (max-width: 600px){
     .navigation {
         padding-left: 10%;
         display: inline-block;
