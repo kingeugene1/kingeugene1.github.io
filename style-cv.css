@@ -134,6 +134,16 @@ body h1{
     margin-left: 20px;
     font-size: 20px;
 }
+.work-history h2{
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.work-history h3{
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+}
 .work-history-container{
     display: flex;
     justify-content: space-between;
@@ -198,6 +208,9 @@ body h1{
     text-align: justify;
     margin-right: 20px;
     line-height: 16pt; 
+}
+.skills-detail li{
+    font-size: 15px;
 }
 
 .award{
@@ -280,69 +293,94 @@ border-radius: 20px;
     color: rgb(163, 160, 160);
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     .navigation {
-        padding-left: 10%;
+        padding:10px 0;
         display: inline-block;
-        padding-top: 10px;
-        padding-bottom: 10px;
         background: #432094;
-        margin-top: 10px;
-        margin-left: 0%;
-        width: 88%;
+        margin: 5px 0 0 0;
+        width: 98%;
         border-radius: 6px;
+        text-align: center;
+        position: fixed;
+        top:0;
     }
     .navigation a {
-        margin-right: 20px;
+        margin-right: 5px;
         text-decoration: none;
         color: #fff;
         font-size: 15px;
         cursor: pointer;
     }
+    .navigation a:last-child{
+        margin: 0;
+    }
     .introduction {
-        margin: 10px 1%;
+        display: block;
+        margin: 45px 1%  10px 1%;
         background: beige;
         border-radius: 6px;
+    }
+    .intro-left{
+        margin: auto;
+        display: block;
+        justify-content: center;
+        text-align: center;
     }
     .intro-left img {
         width: 150px;
         border-radius: 50%;
-        margin-left: 10px;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
     }
-    .intro-right-row2 ul li{
-        font-size: 13px;
-        font-weight: 150;
-        margin-right: 5px;
-        padding-bottom: 10px;
-        text-align: justify;
-    }
-    .intro-left h4 {
-        font-size: 12px;
-    }
-    .objective {
-        margin: 10px 1%;
 
-    }
-    body h1 {
+    .intro-left h4 {
         font-size: 15px;
+        margin: 0;
+        text-align: center;
+        padding: 5px;
+        height: fit-content;
+    }
+
+    body h1 {
+        font-size: 16px;
     }
     body {
-        padding: 0;
+        padding: 0 1%;
         margin: 0;
         display: block;
     }
-    .content {
-        flex-basis: 55%;
-        font-size: 13px;
-        font-weight: 150;
+    .objective, .education, .work-history-container {
+        margin: 10px 1%;
+        padding: 0;
+        display: block;
+        font-size: 15px;
+
+    }
+    .content, .education-detail {
+        flex-basis: 100%;
+        font-size: 14px;
+        font-weight: 200;
         line-height: 20pt;
         text-align: justify;
-        margin-right: 10px;
+        margin: 0px;
+        padding: 10px;
     }
-    .title{
-        flex-basis: 38%;
-        margin-left: 10px;
-        font-size: 14px;
+    .content p{
+        padding: 0;
+        margin: 0;
+    }
+    .title, .work-place1, .work-place2, .work-place3{
+        flex-basis: 100%;
+        margin: 0px;
+        padding: 10px 0 0 0;
+        font-size: 18px;
+        text-align: center;
+    }
+    .title h1{
+        padding: 0px;
+        margin: 0;
     }
     .footer{
         margin-top: 30px;
@@ -357,47 +395,213 @@ border-radius: 20px;
         margin: 10px 1%;
     }
     .work-detail {
-        flex-basis: 55%;
+        flex-basis: 100%;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 20pt;
         text-align: justify;
-        margin-right: 20px;
-        line-height: 13pt;
+        margin: 0px;
+        padding: 0 10px;
     }
+    .work-detail li {
+        margin: 0 10px;
+        padding: 0;
+      }
     .work-history h1 {
         padding-top: 10px;
-        margin-left: 5px;
+        text-align: center;
+        font-size: 16px;
+        margin: 0;
+    }
+    .work-history h2{
+        padding: 0px;
+        text-align: center;
+        font-size: 15px;
+        margin: 0;
+        font-weight: 800;
+    }
+    .work-history h3{
+        padding: 0px;
+        margin: 0;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .education-detail P{
+        padding: 0px 20px;
+        margin: 0;
         font-size: 14px;
     }
-
- 
-    .education-detail {
-        flex-basis: 55%;
-        font-size: 13px;
-
+    .education-detail li{
+        margin: 0px 10px;
+        font-size: 14px;
     }
-    .interest-detail {
-        flex-basis: 55%;
-    }
+    
     .interest, .skills, .award, .publications, #hobby {
 
         margin: 10px 1%;
     }
-    .marathon, .hiking {
-        width: 150px;
+    .interest{
         border-radius: 6px;
+        background: rgb(232, 223, 223);
+        margin: 10px 1%;
+        display: block;
+        justify-content: space-between;
     }
-    .hobby-col2 {
-        flex-basis: 55%;
+    .interest-detail {
+        flex-basis: 100%;
+    }
+    .interest-detail p{
+        margin: 0;
+        padding: 10px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .skills{
+        margin: 10px 1%;
+        display: block;
+        justify-content: center;
+        padding: 10px;
+    }
+    .skills-detail{
+        flex-basis: 100%;
+        text-align: justify;
+        margin: 0px;
+        line-height: 16pt; 
+    }
+    .skills-detail li{
+        font-size: 14px;
+        font-weight: 200;
+        margin: 0 10px;
+    }
+    .award{
+        margin: 10px 1%;
+        display: block;
+        justify-content: center;
+    }
+    .award-detail{
+        flex-basis: 100%;
+        text-align: justify;
+        margin: 0;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 16pt; 
+    }
+    .award-detail li{
+        margin: 0 10px;
+    }
+    .publications{
+        margin: 10px 1%;
+        display: block;
+        justify-content: center;
+    }
+    .publications-detail{
+        flex-basis: 100%;
+        text-align: justify;
+        margin:0;
+        font-size: 14px;
+        padding: 10px;
+        line-height: 16pt; 
+    }
+    .publications-detail li{
+        margin: 10px;
+    }
+    #hobby{
+        border-radius: 6px;
+        background: rgb(232, 223, 223);
+        margin: 10px 1%;
+    }
+    .hobby-title h1{
+        margin: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+    .hobby-container{
+        margin: 0;
+        padding: 0 10px;
+        display: block;
+        justify-content: center; 
     }
     .hobby-col1{
-        flex-basis: 38%;
-        margin-left: 0px;
+        flex-basis: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .hobby-col2{
+        flex-basis: 100%;
+        text-align: justify;
+        margin: 0px;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 16pt; 
+    }
+    .hobby-col2 h2{
+        font-size: 15px;
+        font-weight: 550;
+        text-align: justify;
+    }
+    .marathon{
+        align-items: center;
+    }
+
+    .marathon img{
+        margin: 0;
+    }
+    .marathon, .hiking {
+        width: 250px;
+        border-radius: 6px;
+        margin:0;
     }
     .other-pic img {
         height: 80px;
         margin-right: 20px;
         border-radius: 20px;
     }
+    .intro-left{
+        flex-basis: 100%;
+    }
+    .intro-right{
+        flex-basis: 100%;
+        padding-bottom: 5px;
+        height: fit-content;
+    }
+    .intro-right-row2 h1 {
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+        height: fit-content;
+    }
+    .intro-right-row2 ul li {
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 10px;
+    padding: 3px 0;
+    text-align: justify;
 }
+.intro-right-row2{
+    margin: 0 20px 20px 20px;
+}
+.head-title{
+    align-items: center;
+    font-size: 18px;
+}
+.intro-right-row2 ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer{
+    margin-top: 15px;
+    margin-left: 0;
+    text-align: center;
+}
+.footer p{
+    font-size: 15px;
+}
+}
+
 
 
 
