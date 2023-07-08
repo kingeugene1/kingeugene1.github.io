@@ -32,14 +32,14 @@
     margin-left: 40%;
     position: absolute;
 }
-.name{
+.name, .name-indx{
   text-align: center;
   margin: 0;
   padding: 0;
   align-items: center;
   
 }
-.name h3{
+.name h3,.name-indx h3{
     margin: 60px 0 0 0;
    font-size: 30px;
    padding: 20px 0 0 0;
@@ -201,6 +201,17 @@
     height: 0px;
     margin-bottom: 0;
   }
+    .name-indx{
+    text-align: center;
+    margin:  0;
+    align-items: center;
+    padding:0;
+}
+.name-indx h3{
+   font-size: 18px;
+   padding:0;
+   margin: 60px 0 0 0; 
+}
 .navigation a {
     margin-right: 10px;
     text-decoration: none;
@@ -305,7 +316,7 @@ body {
     margin: 0;
 }
 .contact-container{
-    padding: 10px;
+    padding: 10px 0 0 0;
 }
 .contact-row h2{
     text-align: center;
