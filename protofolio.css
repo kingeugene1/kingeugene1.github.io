@@ -191,9 +191,9 @@
 }
 .name h3 {
     font-size: 18px;
-    padding-left: 0;
     text-align: center;
-    margin: 0;
+    padding:0;
+    margin: 30px 0 0 0;
 }
 .name{
     text-align: justify;
@@ -201,11 +201,9 @@
     height: 0px;
     margin-bottom: 0;
   }
-    .name-indx{
-    text-align: center;
-    margin:  40px 0 0 0;
-    align-items: center;
-    padding:0;
+   font-size: 18px;
+   padding:0;
+   margin: 50px 0 0 0; 
 }
 .name-indx h3{
    font-size: 18px;
