@@ -2,20 +2,19 @@
     padding: 0;
     font-family: 'Poppin', sans-serif;
 }
-body{
-    margin: 0px 5%;
-}
 body h1{
-    font-size: 20px;
+    font-size: 18px;
 }
 .navigation{
+    padding-left: 28%;
     display: inline-block;
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: #432094;
-    margin: 10px 0;
-    width: 100%;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 62%;
     border-radius: 6px;
-    text-align: center;
 }
 .navigation a{
     margin-right: 100px;
@@ -28,7 +27,7 @@ body h1{
     margin-right: 50px;
 }
 .introduction{
-    margin: 10px 0;
+    margin: 10px 5%;
     background: beige;
     border-radius: 6px;
 }
@@ -41,7 +40,7 @@ body h1{
     flex-basis: 25%;
 }
 .intro-left h4{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     margin-left: 10px;
     text-align: center;
@@ -79,7 +78,7 @@ body h1{
 .objective{
     background: rgb(232, 223, 223);
     border-radius: 6px;
-    margin: 10px 0;
+    margin: 10px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,7 +87,7 @@ body h1{
 .title{
     flex-basis: 33%;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 18px;
 }
 .content{
     flex-basis: 60%;
@@ -106,7 +105,7 @@ body h1{
 /* Education section*/
 .education{
     border-radius: 6px;
-    margin: 10px 0;
+    margin: 10px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,12 +128,12 @@ body h1{
 .work-history{
     border-radius: 6px;
     background: rgb(232, 223, 223);
-    margin: 10px 0;
+    margin: 10px 5%;
 }
 .work-history h1{
     padding-top: 10px;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .work-history h2{
     padding-top: 10px;
@@ -144,7 +143,7 @@ body h1{
 .work-history h3{
     padding-top: 10px;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .work-history-container{
     display: flex;
@@ -172,7 +171,7 @@ body h1{
     list-style-type:decimal;
 }
 .work-detail h1{
-    font-size: 20px;
+    font-size: 18px;
 }
 .head-title{
     margin-left: 5%;
@@ -186,7 +185,7 @@ body h1{
 .interest{
     border-radius: 6px;
     background: rgb(232, 223, 223);
-    margin: 10px 0;
+    margin: 10px 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -201,24 +200,23 @@ body h1{
 .skills{
     border-radius: 6px;
     background: rgb(232, 223, 223);
-    margin: 10px 0;
+    margin: 10px 5%;
     display: flex;
     justify-content: space-between;
 }
 .skills-detail{
     flex-basis: 60%;
     text-align: justify;
-    margin-right: 20px;
-    line-height: 16pt; 
+    margin-right: 20px; 
 }
 .skills-detail li{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .award{
     border-radius: 6px;
     background: rgb(232, 223, 223);
-    margin: 10px 0;
+    margin: 10px 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -232,7 +230,7 @@ body h1{
 .publications{
     border-radius: 6px;
     background: rgb(232, 223, 223);
-    margin: 10px 0;
+    margin: 10px 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -246,7 +244,7 @@ body h1{
 #hobby{
     border-radius: 6px;
     background: rgb(232, 223, 223);
-    margin: 10px 0;
+    margin: 10px 5%;
 }
 .hobby-title h1{
     margin-left: 20px;
@@ -297,15 +295,12 @@ border-radius: 20px;
 
 @media (max-width: 800px){
     .navigation {
-        padding:10px 0;
+        padding:10px;
         display: inline-block;
         background: #432094;
-        margin: 5px 0 0 0;
-        width: 98%;
+        margin: 10px 10px 0px 10px;
+        width: 90%;
         border-radius: 6px;
-        text-align: center;
-        position: fixed;
-        top:0;
     }
     .navigation a {
         margin-right: 5px;
@@ -319,7 +314,7 @@ border-radius: 20px;
     }
     .introduction {
         display: block;
-        margin: 45px 1%  10px 1%;
+        margin: 10px 1%;
         background: beige;
         border-radius: 6px;
     }
@@ -327,29 +322,28 @@ border-radius: 20px;
         margin: auto;
         display: block;
         justify-content: center;
-        text-align: center;
+    align-items: center
     }
     .intro-left img {
-        width: 75px;
+        width: 150px;
         border-radius: 50%;
         max-width: 100%;
         height: auto;
-        margin: 0;
+        margin-left: 30%;
     }
 
     .intro-left h4 {
         font-size: 15px;
-        margin: 0;
+        margin-left: 0;
         text-align: center;
-        padding: 5px;
-        height: fit-content;
+        padding: 10px;
     }
 
     body h1 {
         font-size: 16px;
     }
     body {
-        padding: 0 1%;
+        padding: 0;
         margin: 0;
         display: block;
     }
@@ -360,28 +354,27 @@ border-radius: 20px;
         font-size: 15px;
 
     }
-    .content, .education-detail {
+    .content, .education-detail, .work-detail {
         flex-basis: 100%;
         font-size: 14px;
         font-weight: 200;
-        line-height: 15pt;
+        line-height: 20pt;
         text-align: justify;
-        margin: 0px;
+        margin-right: 10px;
         padding: 10px;
     }
     .content p{
-        padding: 0;
+        padding: 5px;
         margin: 0;
     }
     .title, .work-place1, .work-place2, .work-place3{
         flex-basis: 100%;
-        margin: 0px;
-        padding: 10px 0 0 0;
+        margin-left: 10px;
         font-size: 18px;
-        text-align: center;
     }
     .title h1{
-        padding: 0px;
+        padding-top: 10px;
+        text-align: center;
         margin: 0;
     }
     .footer{
@@ -397,47 +390,33 @@ border-radius: 20px;
         margin: 10px 1%;
     }
     .work-detail {
-        flex-basis: 100%;
-        font-size: 14px;
-        font-weight: 200;
-        line-height: 15pt;
+        flex-basis: 55%;
         text-align: justify;
-        margin: 0px;
-        padding: 0 10px;
+        margin-right: 20px;
+        line-height: 13pt;
     }
-    .work-detail li {
-        margin: 0 10px;
-        padding: 0;
-      }
     .work-history h1 {
         padding-top: 10px;
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
         margin: 0;
     }
     .work-history h2{
         padding: 0px;
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
         margin: 0;
-        font-weight: 800;
     }
     .work-history h3{
         padding: 0px;
         margin: 0;
         text-align: center;
         font-size: 15px;
-        font-weight: 500;
     }
 
     .education-detail P{
-        padding: 0px 20px;
-        margin: 0;
-        font-size: 14px;
-    }
-    .education-detail li{
-        margin: 0px 10px;
-        font-size: 14px;
+        padding: 0px 5px;
+        font-size: 15px;
     }
     
     .interest, .skills, .award, .publications, #hobby {
@@ -471,12 +450,11 @@ border-radius: 20px;
         flex-basis: 100%;
         text-align: justify;
         margin: 0px;
-        line-height: 15pt; 
+        line-height: 16pt; 
     }
     .skills-detail li{
         font-size: 14px;
         font-weight: 200;
-        margin: 0 10px;
     }
     .award{
         margin: 10px 1%;
@@ -489,10 +467,7 @@ border-radius: 20px;
         margin: 0;
         padding: 10px;
         font-size: 14px;
-        line-height: 15pt; 
-    }
-    .award-detail li{
-        margin: 0 10px;
+        line-height: 16pt; 
     }
     .publications{
         margin: 10px 1%;
@@ -505,10 +480,7 @@ border-radius: 20px;
         margin:0;
         font-size: 14px;
         padding: 10px;
-        line-height: 15pt; 
-    }
-    .publications-detail li{
-        margin: 10px;
+        line-height: 16pt; 
     }
     #hobby{
         border-radius: 6px;
@@ -516,20 +488,19 @@ border-radius: 20px;
         margin: 10px 1%;
     }
     .hobby-title h1{
-        margin: 0px;
-        padding: 10px;
+        margin-left: 20px;
+        padding-top: 10px;
         text-align: center;
     }
     .hobby-container{
         margin: 0;
-        padding: 0 10px;
+        padding: 10px;
         display: block;
         justify-content: center; 
     }
     .hobby-col1{
         flex-basis: 100%;
         margin: 0;
-        text-align: center;
     }
     .hobby-col2{
         flex-basis: 100%;
@@ -537,24 +508,16 @@ border-radius: 20px;
         margin: 0px;
         padding: 10px;
         font-size: 14px;
-        line-height: 15pt; 
-    }
-    .hobby-col2 h2{
-        font-size: 15px;
-        font-weight: 550;
-        text-align: justify;
-    }
-    .marathon{
-        align-items: center;
+        line-height: 16pt; 
     }
 
     .marathon img{
         margin: 0;
     }
     .marathon, .hiking {
-        width: 250px;
+        width: 300px;
         border-radius: 6px;
-        margin:0;
+        margin-left: 20px;
     }
     .other-pic img {
         height: 80px;
@@ -567,40 +530,23 @@ border-radius: 20px;
     .intro-right{
         flex-basis: 100%;
         padding-bottom: 5px;
-        height: fit-content;
     }
     .intro-right-row2 h1 {
         font-size: 18px;
         text-align: center;
-        margin: 0;
-        padding: 5px;
-        height: fit-content;
     }
     .intro-right-row2 ul li {
     font-size: 14px;
     font-weight: 200;
-    line-height: 15pt;
     margin-left: 10px;
     padding: 3px 0;
     text-align: justify;
 }
 .intro-right-row2{
-    margin: 0 20px 20px 20px;
+    margin: 20px 20px;
 }
 .head-title{
     align-items: center;
     font-size: 18px;
-}
-.intro-right-row2 ul{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.footer{
-    margin-top: 15px;
-    margin-left: 0;
-    text-align: center;
-}
-.footer p{
-    font-size: 15px;
 }
 }
