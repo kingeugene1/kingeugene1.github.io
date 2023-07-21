@@ -3,7 +3,7 @@
     font-family: 'Poppin', sans-serif;
 }
 body h1{
-    font-size: 18px;
+    font-size: 20px;
 }
 .navigation{
     padding-left: 28%;
@@ -20,7 +20,7 @@ body h1{
     margin-right: 100px;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
 }
 .navigation a:last-child{
@@ -40,7 +40,7 @@ body h1{
     flex-basis: 25%;
 }
 .intro-left h4{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     margin-left: 10px;
     text-align: center;
@@ -49,7 +49,7 @@ body h1{
     flex-basis: 60%;
 }
 .intro-right-row2 ul li{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     margin-right: 20px;
     padding-bottom: 10px;
@@ -71,7 +71,7 @@ body h1{
     margin-bottom: 15px;
 }
 .intro-right h1{
-    font-size: 18px
+    font-size: 20px
 }
 
 /* Objective section */
@@ -91,7 +91,7 @@ body h1{
 }
 .content{
     flex-basis: 60%;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 20pt;
     text-align: justify;
@@ -114,14 +114,14 @@ body h1{
 }
 .education-detail{
     flex-basis: 60%;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 12pt;
     text-align: justify;
     margin-right: 20px; 
 }
 .education-detail p{
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /*Work history*/
@@ -133,7 +133,7 @@ body h1{
 .work-history h1{
     padding-top: 10px;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 .work-history h2{
     padding-top: 10px;
@@ -165,13 +165,13 @@ body h1{
     flex-basis: 60%;
     text-align: justify;
     margin-right: 20px;
-    line-height: 16pt;
+    line-height: 18pt;
 }
 .work-detail li{
     list-style-type:decimal;
 }
 .work-detail h1{
-    font-size: 18px;
+    font-size: 20px;
 }
 .head-title{
     margin-left: 5%;
@@ -193,7 +193,7 @@ body h1{
     flex-basis: 60%;
     text-align: justify;
     margin-right: 20px;
-    line-height: 16pt;
+    line-height: 18pt;
 }
 
 
@@ -210,7 +210,7 @@ body h1{
     margin-right: 20px; 
 }
 .skills-detail li{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .award{
@@ -224,7 +224,7 @@ body h1{
     flex-basis: 60%;
     text-align: justify;
     margin-right: 20px;
-    line-height: 16pt; 
+    line-height: 18pt; 
 }
 
 .publications{
@@ -238,7 +238,7 @@ body h1{
     flex-basis: 60%;
     text-align: justify;
     margin-right: 20px;
-    line-height: 16pt; 
+    line-height: 18pt; 
 }
 
 #hobby{
@@ -289,7 +289,7 @@ border-radius: 20px;
     align-items: center;
 }
 .footer p{
-    font-size: 15px;
+    font-size: 16px;
     color: rgb(163, 160, 160);
 }
 
