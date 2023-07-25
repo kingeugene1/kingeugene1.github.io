@@ -298,8 +298,8 @@ border-radius: 20px;
         padding:10px;
         display: inline-block;
         background: #432094;
-        margin: 10px 10px 0px 10px;
-        width: 90%;
+        margin: 0px;
+        width: 100%;
         border-radius: 6px;
     }
     .navigation a {
@@ -449,7 +449,7 @@ border-radius: 20px;
     .skills-detail{
         flex-basis: 100%;
         text-align: justify;
-        margin: 0px;
+        margin:0 5px;
         line-height: 16pt; 
     }
     .skills-detail li{
@@ -515,9 +515,9 @@ border-radius: 20px;
         margin: 0;
     }
     .marathon, .hiking {
-        width: 300px;
+        width: 200px;
         border-radius: 6px;
-        margin-left: 20px;
+        margin:0 5px;
     }
     .other-pic img {
         height: 80px;
