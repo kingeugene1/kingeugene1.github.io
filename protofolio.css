@@ -253,8 +253,8 @@ body{
 .paper-img img {
     width: 400px;
     margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
 }
 .research-container{
     margin-left: 0;
