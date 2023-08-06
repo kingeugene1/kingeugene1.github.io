@@ -1,3 +1,7 @@
+
+body{
+    font-size: 20px;
+}
 .top-img{
     background-image: url(images/conference1.png);
     background-color: #cccccc;
