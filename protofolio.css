@@ -252,7 +252,7 @@ body{
 }
 .paper-img img {
     width: 400px;
-    margin-top: 20px;
+    margin: 20px 0 0 0;
     padding-left: 10%;
     padding-right: 5%;
 }
