@@ -253,3 +253,6 @@ body{background:#f5f8fa;font:1rem/1.65 system-ui,-apple-system,"Segoe UI",sans-s
 .site-footer{background:#102940;color:#dbe6ef}
 @media(max-width:48rem){.page-layout{grid-template-columns:1fr;gap:1.3rem}.profile-pic{width:4.5rem}.card-grid{grid-template-columns:1fr}.nav-list{gap:.2rem .9rem}.hero{padding:1.4rem}.profile{position:static}}
 @media print{.site-header,.profile,.site-footer,.actions,.skip-link{display:none}.page-layout{display:block;width:100%;padding:0}body{background:white}.cv-list li{break-inside:avoid;border:none;padding:.4rem 0}}
+
+/* Responsive illustrative research thumbnails */
+.research-thumbnail{display:block;width:100%;height:auto;aspect-ratio:24/13;border-radius:8px;margin-bottom:1rem;font-family:system-ui,sans-serif;border:1px solid #dce6ea;overflow:hidden}
