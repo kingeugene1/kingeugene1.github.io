@@ -221,3 +221,35 @@ a:hover { text-decoration-thickness: .13em; }
     .profile-links { flex-direction: row; flex-wrap: wrap; gap: .35rem 1rem; margin-top: .75rem; }
     .content { padding-top: 0; }
 }
+
+/* Academic portfolio refresh */
+:root{--text:#253648;--muted:#53677a;--heading:#142c45;--link:#087e79;--line:#dce6ea;--shell:74rem}
+body{background:#f5f8fa;font:1rem/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+.site-header{background:#102940;border-bottom:3px solid #33b8ad}
+.header-inner{justify-content:space-between;gap:.35rem 1.25rem}
+.site-header .site-name,.site-header .nav-list a{color:#edf5fa}
+.site-header .nav-list a[aria-current]{color:#74e1d5}
+.page-layout{grid-template-columns:14rem minmax(0,1fr);gap:2.5rem;padding-block:2.5rem 4rem}
+.profile{background:white;border:1px solid var(--line);border-radius:18px;padding:1.25rem;box-shadow:0 8px 25px #142c4508}
+.profile-pic{width:100%;aspect-ratio:1;object-fit:cover;border-radius:14px}
+.content{padding-top:0}
+.content p{text-align:left}
+.content h1{font-size:clamp(2rem,4vw,3.1rem);letter-spacing:-.045em;border:0}
+.content h2{font-size:1.65rem;letter-spacing:-.025em}
+.hero{padding:clamp(1.5rem,4vw,3rem);border-radius:20px;background:linear-gradient(135deg,#102940,#173e55);color:#edf5fa}
+.hero h1,.hero a:not(.button){color:white}
+.hero .eyebrow{color:#8de7db}
+.eyebrow{display:block;color:var(--link);font-size:.75rem;font-weight:750;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.65rem}
+.lead{font-size:1.25rem;line-height:1.5}
+.actions{display:flex;flex-wrap:wrap;gap:.7rem;margin:1.3rem 0}
+.button{display:inline-block;border:1px solid #087e79;border-radius:8px;background:#087e79;color:white;padding:.65rem 1rem;text-decoration:none;font:inherit;font-weight:650;cursor:pointer}
+.button.secondary{background:white;color:#075c59;border-color:#b9d5d3}
+.button:hover{filter:brightness(.93)}
+.card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1rem 0}
+.card,.citations li,.cv-list li{background:white;border:1px solid var(--line);border-radius:12px;padding:1.25rem}
+.card h3{margin:0 0 .6rem;font-size:1.2rem}
+.citations li+li,.cv-list li+li{margin-top:.75rem;border-top:1px solid var(--line)}
+.citations .paper-link{margin-top:.75rem}
+.site-footer{background:#102940;color:#dbe6ef}
+@media(max-width:48rem){.page-layout{grid-template-columns:1fr;gap:1.3rem}.profile-pic{width:4.5rem}.card-grid{grid-template-columns:1fr}.nav-list{gap:.2rem .9rem}.hero{padding:1.4rem}.profile{position:static}}
+@media print{.site-header,.profile,.site-footer,.actions,.skip-link{display:none}.page-layout{display:block;width:100%;padding:0}body{background:white}.cv-list li{break-inside:avoid;border:none;padding:.4rem 0}}
